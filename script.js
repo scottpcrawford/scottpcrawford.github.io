@@ -2,10 +2,10 @@ var main = function(){
     $('.menu-list').hover( 
     	function(){
         	$(this).animate({
-            	left: '130px' }, 200)}, 
+            	left: '10%' }, 200)}, 
         function(){
         	$(this).animate({
-        		left: '250px'}, 200)}
+        		left: '16%'}, 200)}
        );
 
 };
