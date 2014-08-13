@@ -1,4 +1,31 @@
 p{
-	font-family: Helvetica, cursive;
+	font-family: 'News Cycle', sans-serif;
+	color: #202020;
+	text-align: center;
 
 }
+
+h1{
+	font-family: 'Lora', 'Julius Sans One', sans-serif;
+	color: #006699;
+	text-align: center
+	}
+
+body{
+	background-color: #ededed;
+	background-image: url("pics/helo_cutout3.jpg");
+	background-attachment: fixed;
+	background-position: center; 
+	background-repeat: no-repeat;
+	}
+	
+#mainpage{
+	background-color: #aaaaaa;
+	opacity: 0.9;
+	position: center;
+	width: 50%;
+	height: 400px;
+	margin: 0px auto;
+	border-radius: 2em;
+	z-index: 1;
+	}
