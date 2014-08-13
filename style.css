@@ -9,29 +9,77 @@ p{
 }
 
 h1{
-	font-family: 'Lora', 'Julius Sans One', sans-serif;
+	font-family: 'Julius Sans One', 'Lora', sans-serif;
 	color: #006699;
 	text-align: center;
 	line-height: 100px;
+	text-transform: uppercase;
 	}
 
 body{
 	background-color: #ededed;
 	background-image: url("pics/helo_cutout3.jpg");
-	background-attachment: fixed;
-	background-position: center; 
+	height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover; 
 	background-repeat: no-repeat;
 	}
 	
-#mainpage{
+.mainpage{
+	position: relative;
+	left: 10px;
+
 	background-color: #aaaaaa;
 	opacity: 0.9;
 	box-shadow: 10px 10px 5px #777777;
-	width: 50%;
-	height: 400px;
+	width: 75%;
+	height: 800px;
 	margin: 0px auto;
-	padding: 10px;
+	padding: 2px;
 	border: 2px solid grey;
-	border-radius: 2em;
+	border-radius: 1em;
 	z-index: 1;
 	}
+
+a{
+
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Julius Sans One', sans-serif;
+	font-color: white;
+
+}
+.menu-list{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 12%;
+	height: 300px;
+/*	border: 2px solid black; */
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Julius Sans One', sans-serif;
+	color: rgb(223, 247, 255);
+	background-color: #006699;
+	border-radius: 1em;
+	opacity: .8;
+}
+.menu-list-item{
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Julius Sans One', sans-serif;
+	color: rgb(223, 247, 255);
+}
+
+.menu-list-item a:hover, 
+.menu-list-item a:visited,
+.menu-list-item a:link,
+.menu-list-item a:active{
+	color: #ffffff;
+	background-color: #ffffff;
+
+};
