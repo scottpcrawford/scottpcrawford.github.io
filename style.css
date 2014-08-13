@@ -42,7 +42,7 @@ body{
 	top: 280px;
 	left: 10px;
 
-	background-color: rgba(171, 221, 164, 0.70);
+	background-color: rgba(171, 221, 164, 1.0);
 
 	box-shadow: 10px 10px 5px #777777;
 	width: 82%;
@@ -60,10 +60,10 @@ a{
 }
 .menu-list{
 	position: absolute;
-	top: 290px;
-	left: 10px
-;	width: 9%;
-	height: 300px;
+	top: 300px;
+	left: 150px
+;	width: 12%;
+	height: 250px;
 /*	border: 2px solid black; */
 	text-decoration: none;
 	text-transform: uppercase;
