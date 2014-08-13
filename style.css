@@ -11,7 +11,8 @@ p{
 h1{
 	font-family: 'Lora', 'Julius Sans One', sans-serif;
 	color: #006699;
-	text-align: center
+	text-align: center;
+	line-height: 100px;
 	}
 
 body{
@@ -25,10 +26,12 @@ body{
 #mainpage{
 	background-color: #aaaaaa;
 	opacity: 0.9;
-	position: center;
+	box-shadow: 10px 10px 5px #777777;
 	width: 50%;
 	height: 400px;
 	margin: 0px auto;
+	padding: 10px;
+	border: 2px solid grey;
 	border-radius: 2em;
 	z-index: 1;
 	}
