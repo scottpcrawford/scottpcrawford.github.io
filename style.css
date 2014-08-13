@@ -18,21 +18,32 @@ h1{
 
 body{
 	background-color: #ededed;
-	background-image: url("pics/helo_cutout3.jpg");
+	background-image: url('pics/grass.png');
+	background-repeat: repeat;
 	height: 100%;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
-          background-size: cover; 
-	background-repeat: no-repeat;
+          background-size: cover;
+
 	}
 	
+.header{
+	position: fixed;
+	width: 100%; 
+	height: 280px;
+	text-align: center;
+	background-image: url('pics/bg grass_pastel.png'); 
+	background-repeat: repeat-x;
+
+}	
 .mainpage{
 	position: relative;
+	top: 280px;
 	left: 10px;
 
-	background-color: #aaaaaa;
-	opacity: 0.9;
+	background-color: rgba(171, 221, 164, 0.70);
+
 	box-shadow: 10px 10px 5px #777777;
 	width: 75%;
 	height: 800px;
@@ -53,7 +64,7 @@ a{
 }
 .menu-list{
 	position: absolute;
-	top: 10px;
+	top: 290px;
 	left: 10px;
 	width: 12%;
 	height: 300px;
@@ -63,6 +74,7 @@ a{
 	font-family: 'Julius Sans One', sans-serif;
 	color: rgb(223, 247, 255);
 	background-color: #006699;
+	
 	border-radius: 1em;
 	opacity: .8;
 }
