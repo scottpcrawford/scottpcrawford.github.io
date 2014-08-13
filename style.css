@@ -38,14 +38,14 @@ body{
 
 }	
 .mainpage{
-	position: relative;
+	position: absolute;
 	top: 280px;
-	left: 10px;
+	left: 285px;
 
 	background-color: rgba(171, 221, 164, 1.0);
 
 	box-shadow: 10px 10px 5px #777777;
-	width: 82%;
+	width: 65%;
 	height: 800px;
 	margin: 0px auto;
 	padding: 2px;
@@ -61,7 +61,7 @@ a{
 .menu-list{
 	position: absolute;
 	top: 300px;
-	left: 150px
+	left: 250px
 ;	width: 12%;
 	height: 250px;
 /*	border: 2px solid black; */
