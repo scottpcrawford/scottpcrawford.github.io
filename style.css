@@ -9,10 +9,10 @@ p{
 }
 
 h1{
-	font-family: 'Julius Sans One', 'Lora', sans-serif;
+	font-family: 'Julius Sans One','Lora', sans-serif;
 	color: #006699;
 	text-align: center;
-	line-height: 100px;
+	/* line-height: 100px; */
 	text-transform: uppercase;
 	}
 
@@ -45,7 +45,7 @@ body{
 	background-color: rgba(171, 221, 164, 0.70);
 
 	box-shadow: 10px 10px 5px #777777;
-	width: 75%;
+	width: 82%;
 	height: 800px;
 	margin: 0px auto;
 	padding: 2px;
@@ -56,17 +56,13 @@ body{
 
 a{
 
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: 'Julius Sans One', sans-serif;
-	font-color: white;
 
 }
 .menu-list{
 	position: absolute;
 	top: 290px;
-	left: 10px;
-	width: 12%;
+	left: 10px
+;	width: 9%;
 	height: 300px;
 /*	border: 2px solid black; */
 	text-decoration: none;
@@ -87,11 +83,19 @@ a{
 	color: rgb(223, 247, 255);
 }
 
-.menu-list-item a:hover, 
-.menu-list-item a:visited,
-.menu-list-item a:link,
-.menu-list-item a:active{
+a:visited{
+	#ffffff;
+}
+a:link{
 	color: #ffffff;
-	background-color: #ffffff;
+	
+}
+a:hover{
+	color: #000000;
+	background-color: #777777;
+	/*box-shadow: 2px 2px 5px #777777; */
 
-};
+}
+a:active{
+	color: #000000;
+}
